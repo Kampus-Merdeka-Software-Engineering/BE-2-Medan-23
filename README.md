@@ -1,7 +1,6 @@
 # Hi there 👋
 ## You are now in the Back End repository of Group 23 Section Medan
-Hello and welcome to project repository for Back End!
-This repository for Capstone Project Section Medan  at Software Engineering as the primary working repository for back end side of the project done as part of RevoU Capstone Project Software Engineering built in Javascript.
+Welcome to the project repository for the Back End! This repository is dedicated to the Capstone Project in Software Engineering from Group 23 Section Medan, serving as the primary workspace for the back-end development, all crafted in JavaScript as part of the RevoU Capstone Project in Software Engineering.
 
 ## Team Member
 Here are the team members working on this Capstone project
