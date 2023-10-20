@@ -8,11 +8,11 @@ As the name implies, this repository is used as the primary working repository f
 
 ## Team Member
 Here are the team members working on this Capstone project
-| Role              | Name                   | GitHub                                     | Email                 | 
-|-------------------|------------------------|--------------------------------------------|-----------------------|
-| Project Leader    | Chayun Fadila          | [@chayunfdl](https://github.com/chayunfdl) |                       | 
-| Back End          |                        |                                            |                       |
-|                   |                        |                                            |                       |
-| Front End         |                        |                                            |                       |
-|                   |                        |                                            |                       |
-| Quality Assurance |                        |                                            |                       |
+| Role              | Name                   | GitHub                                     | Email                  | 
+|-------------------|------------------------|--------------------------------------------|------------------------|
+| Project Leader    | Chayun Fadila          | [@chayunfdl](https://github.com/chayunfdl) | chaiiii.0110@gmail.com | 
+| Back End          |                        |                                            |                        |
+|                   |                        |                                            |                        |
+| Front End         |                        |                                            |                        |
+|                   |                        |                                            |                        |
+| Quality Assurance |                        |                                            |                        |
