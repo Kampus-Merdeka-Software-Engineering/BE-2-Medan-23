@@ -1,5 +1,3 @@
-BE-2-Medan-23
-
 # Hi there 👋
 # You are now in the Back End repository of Group 23 Section Medan
 Hello and welcome to project repository for Back End!
