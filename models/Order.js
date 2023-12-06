@@ -1,7 +1,8 @@
-import { DataTypes } from 'sequelize';
-import sequelize from '../config/database.js';
+const { DataTypes } = require('sequelize');
+const db = require('../config/database')
 
-const Order = sequelize.define(
+// Model Order
+const Order = db.define(
   'Order',
   {
     name: {
@@ -24,4 +25,4 @@ const Order = sequelize.define(
   }
 );
 
-export default Order;
+module.exports = Order;

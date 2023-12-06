@@ -1,8 +1,12 @@
-import express from 'express';
-import { orderData } from './controllers/orderController.js';
+const express = require('express')
+const router = express.Router()
 
-const router = express.Router();
+const { orderData, addOrderData } = require('.../controllers/orderController')
 
-router.post('/orders', orderData);
+// HTTP GET request to get all orders
+router.get('/', orderData)
 
-export default router;
+// HTTP POST request to add order
+router.post('/add', addOrderData)
+
+module.exports = router;

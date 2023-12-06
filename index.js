@@ -1,26 +1,31 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import db from './config/database.js';
-import orderRoutes from './routes/orderRoutes.js';
+const express = require('express')
+const dotenv = require('dotenv')
+const router = require('./routes/orderRoutes')
 
+const db = require('./config/database')
+
+// using .env
 dotenv.config();
 
-const app = express();
-const port = process.env.PORT || 3000;
+const app = express()
+const port = process.env.PORT || 3000
 
+// using middleware body json
 app.use(express.json());
 
-app.use(orderRoutes);
+// Using route middleware from orderRoutes
+app.use('/orders', router);
 
-// Connecting to database
+// Connect to database
 db.authenticate()
   .then(() => {
     console.log('Connected to the database.');
   })
-  .catch((err) => {
-    console.error('Unable to connect to the database:', err);
+  .catch((error) => {
+    console.error('Unable to connect to the database:', error);
   });
 
+// Listen to internet
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
