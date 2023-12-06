@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const { orderData, addOrderData } = require('.../controllers/orderController')
+const { orderData, addOrderData } = require ('../controllers/orderController');
 
 // HTTP GET request to get all orders
 router.get('/', orderData)
