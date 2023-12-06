@@ -1,12 +1,12 @@
-const express = require('express')
-const router = express.Router()
+import express from 'express';
+const router = express.Router();
 
-const { orderData, addOrderData } = require('.../controllers/orderController')
+const { orderData, addOrderData } = require('.../controllers/orderController');
 
 // HTTP GET request to get all orders
-router.get('/', orderData)
+router.get('/', orderData);
 
 // HTTP POST request to add order
-router.post('/add', addOrderData)
+router.post('/add', addOrderData);
 
 module.exports = router;
