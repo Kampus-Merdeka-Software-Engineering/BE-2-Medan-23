@@ -1,13 +1,13 @@
-import express from 'express';
-const dotenv = require('dotenv');
-const router = require('./routes/orderRoutes');
+const express = require('express')
+const dotenv = require('dotenv')
+const router = require('./routes/orderRoutes')
 
-const db = require('./config/database');
+const db = require('./config/database')
 
 // using .env
 dotenv.config();
 
-const app = express();
+const app = express()
 const port = process.env.PORT || 3000
 
 // using middleware body json
