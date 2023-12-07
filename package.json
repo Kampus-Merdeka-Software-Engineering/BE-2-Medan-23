@@ -1,6 +1,6 @@
 {
   "name": "be-2-medan-23",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is backend repository for KOPI.IN project",
   "main": "index.js",
   "scripts": {
