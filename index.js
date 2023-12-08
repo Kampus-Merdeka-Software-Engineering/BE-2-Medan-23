@@ -12,6 +12,8 @@ const port = process.env.PORT || 3000
 
 // using middleware body json
 app.use(express.json());
+// For CORS Policy
+app.use(cors());
 
 // Using route middleware from orderRoutes
 app.use('/orders', router);
