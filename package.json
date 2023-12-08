@@ -7,6 +7,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chayunfdl/BE-2-Medan-23.git"
+  },
   "keywords": [
     "backend"
   ],
