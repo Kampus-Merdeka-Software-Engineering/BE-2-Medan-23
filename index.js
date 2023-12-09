@@ -5,13 +5,13 @@ const router = require('./routes/orderRoutes')
 
 const db = require('./config/database')
 
-// using .env
+// Using .env
 dotenv.config();
 
 const app = express()
 const port = process.env.PORT || 3000
 
-// using middleware body json
+// Using middleware body json
 app.use(express.json());
 // For CORS Policy
 app.use(cors());
