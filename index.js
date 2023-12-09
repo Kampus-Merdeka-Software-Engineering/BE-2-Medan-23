@@ -17,9 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 // Using route middleware from orderRoutes
-app.use('/orders', router);
-
-app.get('/', (req,  res) => res.send('hello')) 
+app.use('/', router);
 
 // Connect to database
 db.authenticate()
